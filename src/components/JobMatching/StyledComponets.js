@@ -4,7 +4,10 @@ import styled, { createGlobalStyle } from 'styled-components';
 export const GlobalStyle = createGlobalStyle`
   body {
     font-family: Arial, sans-serif;
-    padding: 20px;
+    /* padding: 20px; */
+    padding: 0px;
+    margin: 0px;
+    min-height: 100vh;
     background-color: #f8f9fa;
   }
 `;
